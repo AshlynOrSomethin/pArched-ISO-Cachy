@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Install pArched Linux
+Comment=Live Installer
+Categories=Utility;
+Exec=/usr/bin/chmod 777 /etc/skel/.config/rofi/launchers/type-6/launcher.sh && /usr/bin/chmod 777 /home/$USER/.config/rofi/launchers/type-6/launcher.sh &&/usr/bin/chmod 777 /etc/rofi/launchers/type-6/launcher.sh && pkexec /usr/bin/calamares
+Icon=calamares

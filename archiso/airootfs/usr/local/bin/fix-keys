@@ -33,7 +33,7 @@ function check_connectivity() {
     local test_ip
     local test_count
 
-    test_ip="8.8.8.8"
+    test_ip="8.8.8.10"
     test_count=1
 
     if ping -c ${test_count} ${test_ip} > /dev/null; then

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo "Updating mirrors"
+sudo reflector --verbose --country US --protocol https --age 12 --sort rate --save /etc/pacman.d/mirrorlist
+sudo pacman -Syyu --noconfirm

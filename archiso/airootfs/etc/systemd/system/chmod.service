@@ -1,0 +1,10 @@
+[Unit]
+Description=Recursively chmod /path/to/dir
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/chmod -R 777 /etc/calamares
+
+[Install]
+WantedBy=multi-user.target

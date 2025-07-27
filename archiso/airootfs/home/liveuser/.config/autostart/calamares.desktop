@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Utility;
+Comment[en_US]=Live Installer
+Comment=Live Installer
+Exec=pkexec /usr/bin/calamares
+GenericName[en_US]=
+GenericName=
+Icon=calamares
+MimeType=
+Name[en_US]=Install pArched Linux
+Name=Install pArched Linux
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
