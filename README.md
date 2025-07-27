@@ -1,6 +1,6 @@
-# ALCI ZEN
+# pArched Cachy
 
-# Arch Linux Calamares Installer or ALCI
+# pArched Installer
 
 Use the correct version of Archiso to build the iso.
 
@@ -8,7 +8,7 @@ Use the correct version of Archiso to build the iso.
 
 Download the content of the github with (use the terminal)
 
-`git clone https://github.com/arch-linux-calamares-installer/alci-iso-zen`
+`git clone [https://github.com/arch-linux-calamares-installer/alci-iso-zen](https://github.com/AshlynOrSomethin/pArched-ISO-Cachy)`
 
 # Pacman.conf in archiso folder
 
